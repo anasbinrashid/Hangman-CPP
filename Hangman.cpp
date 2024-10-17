@@ -6,9 +6,6 @@ int main()
 	const int totalsize = 100;
 	const int guesssize = 30;
 	const int wordsize = totalsize / 2 + 1;
-
-	int j = 0;
-
 	char words[totalsize] = {};
 	char guess[guesssize] = {};
 	char word[wordsize] = {};
